@@ -82,6 +82,8 @@ else:
 		if len(roots[l]) == 1:
 			# print l, str(roots[l][0])
 			out.append(str(roots[l][0]))
+	for i in range(2, 25):
+		print i, len([m for m in sorted(out, key=len, reverse=False) if len(m) == i])
 	print len(sorted(out, key=len, reverse=False))
 # else: 
 # 	print "ERROR: Please enter a length for the words you seek."
