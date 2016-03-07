@@ -149,7 +149,6 @@ I was happy to see that it reduces the overall number of `less lonely` words sig
 
 | Length 	| Lonelys 	| Total 	| Ratio        	|
 |--------	|---------	|-------	|--------------	|
-|----|------|-------|----------------|----|
 | 2  | 1    | 139   | 0.007194244604 |
 | 3  | 78   | 1294  | 0.06027820711  |
 | 4  | 353  | 4994  | 0.07068482179  |

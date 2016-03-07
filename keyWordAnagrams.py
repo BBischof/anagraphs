@@ -17,6 +17,9 @@ if len(sys.argv) >= 2:
 				else:
 					roots[s] = [word] 
 
-	print roots[keyLets], len(roots[keyLets])
+	if key in roots[keyLets]:
+		print roots[keyLets], len(roots[keyLets])
+	else:
+		print "That keyword isn't in our dictionary!"
 else: 
 	print "ERROR: Please enter a length for the words you seek."
