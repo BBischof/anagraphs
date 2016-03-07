@@ -18,6 +18,8 @@ The first argument is the integer length of the words you're interested in.
 
 The second argument(optional), is the number of anagrams you're looking for. If not included, the script returns all of the words in the largest set of anagrams.
 
+If you want to look at the graph in a bigger way, first run `dumpGraph.py` (or look at the one I already dumped into anagraphDict.json). Then your `makeAnagraph.py` can load this large JSON automatically, and create a full graph. This `secret` function can be found by eschewing both parameters whne you call it.
+
 #### E.g.
 
 Input:
